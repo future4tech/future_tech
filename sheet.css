@@ -1,0 +1,107 @@
+header{
+	background-color: #7B0099;
+}
+
+#logo{
+	width:83.5mm;
+
+	margin:30px 20px -20px 20px;
+}
+
+#Company{
+	display: inline-block;
+	font-size: 4em;
+	color: white;
+	margin-left: 20px;
+
+}
+
+
+ul li{
+ 	font-size: 20px;
+ 	list-style: none;
+	padding-right: 20px;
+	float: right;
+
+
+}
+
+
+ul{
+	padding-top: 20px;
+	display: inline-block;
+	
+}
+
+
+a:link , a:visited{
+	text-decoration: none;
+	color:  white;
+
+
+}
+ 
+a:hover, a:active {
+ color: red;
+ display: inline-block;
+
+}
+nav{
+	background-color: #9f00a7;
+	width: 100%;
+
+}
+
+body{
+	background-image: url('images/backgroundBody.jpg');
+
+}
+
+#mainBody{
+	max-width: 80%;
+	margin: 16px auto;
+}
+
+#mainContent{
+	max-width: 70%;
+	float:left;
+	margin: 16px 1%;
+}
+section.mainContent{
+	background-color: white;
+	padding: 16px;
+	margin: 16px auto;
+}
+
+#sideBar{
+
+	width: 28%;
+	float: left;
+	margin: 16px auto;
+}
+section.sideBar{
+	background-color: #cce6ff;
+	padding: 16px;
+	margin: 16px auto;
+}
+footer{
+	width: 100%;
+	background-color: #9f00a7;
+	display: block;
+	text-align: center;
+	float: left;
+	color: white;
+	bottom: 0;
+	display: block;
+}
+
+video{
+	max-width: 100%;
+}
+
+h2{
+	color: purple;
+}
+section.mainContent p{
+	font-size: 18px;
+}
