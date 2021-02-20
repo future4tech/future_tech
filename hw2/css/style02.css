@@ -1,0 +1,69 @@
+body{
+    margin:10px;
+    padding:10px;
+    background: url("https://www.itl.cat/pngfile/big/157-1572191_hd-wallpapers-for-website-background-cool-background-image.jpg") center;
+
+}
+header{
+    background: #d3d3d3 url("../images/img_01.jpg") no-repeat top;
+    background-size: 100%;
+    padding:20px;
+    height:180px;
+}
+
+h2{
+    color: #007FFF;;
+    text-transform: uppercase;
+}
+
+
+h1{
+    color: #ffffff;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 30px;
+
+}
+
+aside img{
+   width:80%;
+   display: block;
+   border: 5px solid #001434;
+   margin:20px auto 50px;
+
+}
+
+nav a{
+    display:inline-block;
+    background: #FFFFFF5E;
+    margin:5px;
+    width: 20%;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.active{
+    background: #ffffff;
+    color: #1a1abe;
+    font-size: 25px;
+}
+.left,.right{
+    display:inline-block;
+    float: left;
+}  
+.right{
+   width: 60%;
+   background: none;
+   margin-left: 10px;
+   font-family: sans-serif;
+}
+.left{
+    width: 20%;
+    margin-bottom: 2px;
+    background:#FFFFFF5E;   
+}
+a{
+    color: #000000;
+    
+}
