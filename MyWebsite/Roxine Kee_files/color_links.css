@@ -1,0 +1,110 @@
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes pop_1_5 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bounce-right-100 {
+  0% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+  50% {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+body:not(.email-body) p a,
+body:not(.email-body) .post p:not(.button-wrapper) a,
+body:not(.email-body) .thread-head .markup p:not(.button-wrapper) a,
+body:not(.email-body) .use-theme-bg p a,
+body:not(.email-body) .use-theme-bg .post p:not(.button-wrapper) a,
+body:not(.email-body) .use-theme-bg .thread-head .markup p:not(.button-wrapper) a {
+  color: var(--print_pop);
+  text-decoration: none;
+}
+body:not(.email-body) p a:hover,
+body:not(.email-body) .post p:not(.button-wrapper) a:hover,
+body:not(.email-body) .thread-head .markup p:not(.button-wrapper) a:hover,
+body:not(.email-body) .use-theme-bg p a:hover,
+body:not(.email-body) .use-theme-bg .post p:not(.button-wrapper) a:hover,
+body:not(.email-body) .use-theme-bg .thread-head .markup p:not(.button-wrapper) a:hover {
+  text-decoration: underline;
+}
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    p a:not(.primary.button),
+    .post p:not(.button-wrapper) a:not(.primary.button),
+    .thread-head .markup p:not(.button-wrapper) a:not(.primary.button) {
+      color: var(--print_pop);
+      text-decoration: none;
+    }
+    p a:not(.primary.button):hover,
+    .post p:not(.button-wrapper) a:not(.primary.button):hover,
+    .thread-head .markup p:not(.button-wrapper) a:not(.primary.button):hover {
+      text-decoration: underline;
+    }
+  }
+}
+body.email-body p a:not(.primary.button),
+body.email-body .post p:not(.button-wrapper) a:not(.primary.button),
+body.email-body .thread-head .markup p:not(.button-wrapper) a:not(.primary.button) {
+  color: var(--print_pop);
+  text-decoration: none;
+}
+body.email-body p a:not(.primary.button):hover,
+body.email-body .post p:not(.button-wrapper) a:not(.primary.button):hover,
+body.email-body .thread-head .markup p:not(.button-wrapper) a:not(.primary.button):hover {
+  text-decoration: underline;
+}

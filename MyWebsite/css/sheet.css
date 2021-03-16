@@ -1,0 +1,26 @@
+.welcome {
+            /*background-image: url('imgs/welcome02.jpg');
+            background-color: #d1a0a0;
+            color: aliceblue;
+            background-position: center center;*/
+            line-height:650px;
+			width: 100%-50px;
+	    	height: 45vw;
+			/*border:5px solid black;*/
+			margin:2% 2%;
+	    	background: #8e68ff;
+		    background-image: url('../imgs/welcome01.jpg');
+		    background-repeat: no-repeat;
+		    color:#FFFFFF;
+		    text-align: center;
+		    background-size: cover;
+		    margin-bottom:25px;
+		    font-size: 150%;
+        }
+.content{
+	padding-top: 15%;
+
+}
+.content h1{
+	margin: 2rem 0;
+}
