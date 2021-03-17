@@ -1,28 +1,42 @@
-.welcome {
-            /*background-image: url('imgs/welcome02.jpg');
-            background-color: #d1a0a0;
-            color: aliceblue;
-            background-position: center center;*/
-            line-height:650px;
-			width: 100%-50px;
-	    	height: 45vw;
-			/*border:5px solid black;*/
-			margin:2% 2%;
-	    	background: #8e68ff;
-		    background-image: url('../imgs/welcome01.jpg');
-		    background-repeat: no-repeat;
-		    background-position: center;
-		    color:#FFFFFF;
-		    text-align: center;
-		    background-size: cover;
-		    margin-bottom:25px;
-		    font-size: 2rem;
-        }
-.content{
-	padding: 3rem;
+/*FONTS:
+-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+"Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", 
+sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
+"Segoe UI Symbol", "Noto Color Emoji"*/
 
+body{
+	font-family: "Helvetica Neue";
 }
+.welcome {
+	width: 90vw;
+	height: auto;
+	min-height: 50vw;
+	border:1px solid black round;
+	margin:2% auto 5%;
+	background: #8e68ff;
+    background-image: url('../imgs/welcome01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: cover;
+    margin-bottom:25px;
+    font-size: 2rem;
+    padding: 10% 2% ;
+	line-height: 3rem;	
+}
+ 
+
+
 .content h1{
-	margin: 2rem 0;
+	margin: 0rem 0 4rem;
 	font-size: 3rem;
+}
+.content p{
+	margin: 2rem 0;
+	font-size: 1.5rem;
+	
+}
+.WhatIdo{
+
 }
